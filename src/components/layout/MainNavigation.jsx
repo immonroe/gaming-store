@@ -12,30 +12,20 @@ const MainNavigation = () => {
 
   return (
     <nav className={styles.nav}>
-      <div className={styles.logo}>Your Logo</div>
-      <div
-        className={`${styles.mobileMenuIcon} ${
-          isMobileMenuOpen ? styles.open : ''
-        }`}
-        onClick={toggleMobileMenu}
-      >
-        <div className={styles.bar}></div>
-        <div className={styles.bar}></div>
-        <div className={styles.bar}></div>
-      </div>
-      <ul className={`${styles.navItems} ${isMobileMenuOpen ? styles.open : ''}`}>
+     
+      <ul>
         <li>
-          <Link to="/" className={styles.navLink}>
+          <Link to="/">
             Home
           </Link>
         </li>
         <li>
-          <Link to="/about" className={styles.navLink}>
+          <Link to="/about">
             About
           </Link>
         </li>
         <li>
-          <Link to="/store" className={styles.navLink}>
+          <Link to="/store">
             Store
           </Link>
         </li>
