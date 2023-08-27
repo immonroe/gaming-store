@@ -1,0 +1,94 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .navItems {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchBar input {
+    padding: 0.3rem 0.5rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .cart {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+  .cartIcon {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+  
+  .cartCount {
+    background-color: #f44336;
+    color: white;
+    border-radius: 50%;
+    padding: 0.2rem 0.5rem;
+  }
+  
+  .mobileToggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-3px, 4px);
+  }
+  
+  .open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-3px, -4px);
+  }
+  
+  @media (max-width: 768px) {
+    .navItems {
+      display: none;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      padding: 1rem;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+      transform: translateY(-100%);
+      transition: transform 0.3s;
+    }
+  
+    .navItems.open {
+      transform: translateY(0);
+    }
+  
+    .mobileToggle {
+      display: flex;
+    }
+  }
+  
