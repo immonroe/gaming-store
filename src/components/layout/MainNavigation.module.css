@@ -10,6 +10,8 @@
     display: flex;
     align-items: center;
     gap: 2.5rem;
+    width: 100%;
+    max-width: 45rem;
 }
   
 .navRight {
@@ -31,7 +33,7 @@
     display: flex;
     gap: 0.25rem;
     align-items: center;
-    width: 30rem;
+    /* width: 30rem; */
     flex: 1; /* Added flex property */
 }
   
@@ -40,7 +42,7 @@
     border: 2px solid black;
     border-radius: 8px;
     width: 100%; /* Changed width to 100% */
-    height: 1rem;
+    height: 1.5rem;
     font-size: 1rem;
 }
   
