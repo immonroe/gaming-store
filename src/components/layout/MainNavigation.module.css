@@ -4,33 +4,50 @@
     align-items: center;
     padding: 1rem;
     color: black;
-  }
+}
   
 .navLeft {
     display: flex;
     align-items: center;
-}
-  
-.logo {
-    font-size: 1.5rem;
-    margin-right: 2rem;
-}
-  
-.searchBar input {
-    padding: 0.3rem 0.5rem;
-    border: none;
-    border-radius: 5px;
-}
-
-.searchIcon {
-    border:none;
-    background-color:transparent;
-    outline:none;
+    gap: 2.5rem;
 }
   
 .navRight {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+  
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+  
+.searchBar {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    width: 30rem;
+    flex: 1; /* Added flex property */
+}
+  
+.searchBar input {
+    padding: 0.3rem 0.5rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 100%; /* Changed width to 100% */
+    height: 1rem;
+    font-size: 1rem;
+}
+  
+.searchIcon {
+    border: none;
+    background-color: transparent;
+    outline: none;
 }
   
 .githubLink {
@@ -46,9 +63,25 @@
     margin-right: 0.5rem;
 }
   
-.githubLogo {
-    width: 20px;
-    height: 20px;
-    margin-left: 0.5rem;
+    @media only screen and (max-width: 768px) {
+    .logo {
+      display: none;
+    }
+
+    .nav {
+        gap: 3rem;
+    }
+    
+    .githubLink {
+      margin-left: auto;
+    }
+
+    .navLeft {
+        width: 100%; /* Set the search bar width to 100% on smaller screens */
+    }
+
+    .searchIcon {
+        margin-left: 0.5rem; /* Add some spacing between input and button */
+    }
 }
   
