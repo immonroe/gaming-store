@@ -4,7 +4,9 @@ import { AiFillGithub } from 'react-icons/ai';
 import { IoGameControllerOutline } from 'react-icons/io5';
 import { ImSearch } from "react-icons/im";
 import { Link } from 'react-router-dom';
-import styles from './MainNavigation.module.css';
+import styles from '../layout/MainNavigation.module.css'
+import SearchBar from '../SearchBar';
+
 
 const MainNavigation = () => {
     return (
@@ -14,12 +16,7 @@ const MainNavigation = () => {
                     <IoGameControllerOutline />
                     <span>Game Store</span>
                 </div>
-                <form className={styles.searchBar}>
-                    <input type="text" placeholder="Search for games..." />
-                    <button className={styles.searchIcon}>
-                        <ImSearch size={'1.125rem'} />
-                    </button>
-                </form>
+                <SearchBar ClassName={styles.SearchBar}/>
             </div>
             <div className={styles.navRight}>
                 <a href="https://github.com/yourusername" className={styles.githubLink}>
@@ -32,15 +29,3 @@ const MainNavigation = () => {
 };
 
 export default MainNavigation;
-
-{/* <ul>
-        <li>
-        <Link to="/">Home</Link>
-        </li>
-        <li>
-        <Link to="/about">About</Link>
-        </li>
-        <li>
-        <Link to="/store">Store</Link>
-        </li>
-    </ul> */}
