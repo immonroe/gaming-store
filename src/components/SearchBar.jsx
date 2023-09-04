@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { fromEvent } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
 import data from '../db/data'; // Import your data
+import { ImSearch } from "react-icons/im";
+
 
 const SearchBar = () => {
   const [searchResults, setSearchResults] = useState([]);
@@ -38,6 +40,7 @@ const SearchBar = () => {
           <li key={item.id}>{item.title}</li>
         ))}
       </ul>
+      <button><ImSearch /></button>
     </div>
   );
 };
