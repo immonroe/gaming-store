@@ -3,6 +3,7 @@ import { fromEvent } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
 import data from '../db/data'; // Import your data
 import { ImSearch } from "react-icons/im";
+import '../components/SearchBar.module.css'
 
 
 const SearchBar = () => {
@@ -18,18 +19,23 @@ const SearchBar = () => {
     );
 
     const subscription = searchInputObservable.subscribe(query => {
+        
       const filteredResults = data.filter(item =>
         item.title.toLowerCase().includes(query.toLowerCase())
       );
-      setSearchResults(filteredResults);
+
+        setSearchResults(query === '' ? [] : filteredResults);
     });
 
-    return () => subscription.unsubscribe(); // Clean up subscription
+    return () => subscription.unsubscribe();
 
   }, []);
 
+ 
+
   return (
-    <div>
+
+    <div className='searchContainer'>
       <input
         id="searchInput"
         type="text"
