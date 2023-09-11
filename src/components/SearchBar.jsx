@@ -51,4 +51,23 @@ const SearchBar = () => {
   );
 };
 
+// Refactor to turn into clickable link
+{/* <div className="search-bar">
+  <input
+    type="text"
+    placeholder="Search for a game..."
+    onChange={(e) => handleSearch(e.target.value)}
+  />
+  <ul className="search-results">
+    {searchResults.map((game) => (
+      <li key={game.id}>
+        // {/* Create a Link to the ProductItem page */}
+//         <Link to={`/product/${game.id}`}>
+//           {game.title}
+//         </Link>
+//       </li>
+//     ))}
+//   </ul>
+// </div> */}
+
 export default SearchBar;

@@ -20,12 +20,12 @@
       },
       {
         "id": 3,
-        "title": "The Legend of Zelda: Breath of the Wild",
+        "title": "The Legend of Zelda: Tears of the Kingdom",
         "genre": "Action-Adventure",
-        "releaseDate": "03/03/2017",
+        "releaseDate": "TBD",
         "price": 59.99,
-        "description": "Embark on an epic journey as Link to save Hyrule from the evil Calamity Ganon.",
-        "imageUrl": "https://example.com/breathofthewild.jpg"
+        "description": "Embark on a new quest as Link in the latest installment of the iconic Legend of Zelda series.",
+        "imageUrl": "https://example.com/tearsofthekingdom.jpg"
       },
       {
         "id": 4,
@@ -114,8 +114,7 @@
         "genre": "RPG",
         "releaseDate": "TBD",
         "price": 59.99,
-        "description": "Immerse yourself in the next installment of the beloved Final Fantasy series, featuring an epic tale of magic and conflict."
-  ,
+        "description": "Immerse yourself in the next installment of the beloved Final Fantasy series, featuring an epic tale of magic and conflict.",
         "imageUrl": "https://example.com/finalfantasy16.jpg"
       }
     ]

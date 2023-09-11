@@ -18,6 +18,7 @@ function ProductItem() {
       <p>Genre: {game.genre}</p>
       <p>Release Date: {game.releaseDate}</p>
       <p>Price: ${game.price.toFixed(2)}</p>
+      <p>Description: {game.description}</p>
       <img src={game.imageUrl} alt={game.title} />
     </div>
   );

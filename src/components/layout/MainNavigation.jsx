@@ -11,10 +11,12 @@ const MainNavigation = () => {
     return (
         <nav className={styles.nav}>
             <div className={styles.navLeft}>
+            <Link to="/" className={styles.logoLink}>
                 <div className={styles.logo}>
                     <IoGameControllerOutline />
                     <span>Game Store</span>
                 </div>
+            </Link>
                 <SearchBar ClassName={styles.SearchBar}/>
             </div>
             <div className={styles.navRight}>
