@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { fromEvent } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
-import data from '../db/data'; // Import your data
+import data from '../db/data.json';
 import { ImSearch } from "react-icons/im";
 import '../components/SearchBar.module.css'
 
@@ -20,7 +20,7 @@ const SearchBar = () => {
 
     const subscription = searchInputObservable.subscribe(query => {
         
-      const filteredResults = data.filter(item =>
+      const filteredResults = data.games.filter(item =>
         item.title.toLowerCase().includes(query.toLowerCase())
       );
 
