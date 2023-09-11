@@ -1,60 +1,123 @@
 {
     "games": [
-        {
-            "id": 1,
-            "title": "Super Mario 3D All-Stars",
-            "genre": "Platformer",
-            "releaseDate": "09/18/2020",
-            "price": 49.99,
-            "description": "This is a test description",
-            "imageUrl": "https://example.com/mario3d.jpg"
-        },
-        {
-            "id": 2,
-            "title": "Cyberpunk 2077",
-            "genre": "Action RPG",
-            "releaseDate": "12/10/2020",
-            "price": 59.99,
-            "description": "This is a test description",
-            "imageUrl": "https://example.com/cyberpunk2077.jpg"
-        },
-        {
-            "id": 3,
-            "title": "The Legend of Zelda: Breath of the Wild",
-            "genre": "Action-Adventure",
-            "releaseDate": "03/03/2017",
-            "price": 59.99,
-            "description": "This is a test description",
-            "imageUrl": "https://example.com/breathofthewild.jpg"
-        },
-        {
-            "id": 4,
-            "title": "Street Fighter 6",
-            "genre": "Fighting",
-            "releaseDate": "01/01/2022",
-            "price": 59.99,
-            "description": "This is a test description",
-            "imageUrl": "https://example.com/streetfighter6.jpg"
-        },
-        {
-            "id": 5,
-            "title": "Elden Ring",
-            "genre": "Action RPG",
-            "releaseDate": "02/25/2022",
-            "price": 59.99,
-            "description": "This is a test description",
-            "imageUrl": "https://example.com/eldenring.jpg"
-        },
-        {
-            "id": 6,
-            "title": "NBA 2K24",
-            "genre": "Sports",
-            "releaseDate": "11/15/2023",
-            "price": 69.99,
-            "description": "This is a test description",
-            "imageUrl": "https://example.com/nba2k24.jpg"
+      {
+        "id": 1,
+        "title": "Super Mario 3D All-Stars",
+        "genre": "Platformer",
+        "releaseDate": "09/18/2020",
+        "price": 49.99,
+        "description": "Join Mario on a grand adventure through various 3D worlds in this collection of classic titles.",
+        "imageUrl": "https://example.com/mario3d.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Cyberpunk 2077",
+        "genre": "Action RPG",
+        "releaseDate": "12/10/2020",
+        "price": 59.99,
+        "description": "Explore the futuristic city of Night City as V, a mercenary searching for an immortality chip.",
+        "imageUrl": "https://example.com/cyberpunk2077.jpg"
+      },
+      {
+        "id": 3,
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "genre": "Action-Adventure",
+        "releaseDate": "03/03/2017",
+        "price": 59.99,
+        "description": "Embark on an epic journey as Link to save Hyrule from the evil Calamity Ganon.",
+        "imageUrl": "https://example.com/breathofthewild.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Street Fighter 6",
+        "genre": "Fighting",
+        "releaseDate": "01/01/2022",
+        "price": 59.99,
+        "description": "Fight against formidable opponents in intense one-on-one battles in the latest installment of the iconic fighting series.",
+        "imageUrl": "https://example.com/streetfighter6.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Elden Ring",
+        "genre": "Action RPG",
+        "releaseDate": "02/25/2022",
+        "price": 59.99,
+        "description": "Uncover the mysteries of the shattered world of the Elden Ring in this open-world action RPG.",
+        "imageUrl": "https://example.com/eldenring.jpg"
+      },
+      {
+        "id": 6,
+        "title": "NBA 2K24",
+        "genre": "Sports",
+        "releaseDate": "11/15/2023",
+        "price": 69.99,
+        "description": "Experience the excitement of professional basketball in the latest installment of the NBA 2K series.",
+        "imageUrl": "https://example.com/nba2k24.jpg"
+      },
+      {
+        "id": 7,
+        "title": "The Elder Scrolls V: Skyrim",
+        "genre": "Action RPG",
+        "releaseDate": "11/11/2011",
+        "price": 39.99,
+        "description": "Step into the vast and open world of Skyrim, where dragons roam and adventures await around every corner.",
+        "imageUrl": "https://example.com/skyrim.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Baldur's Gate 3",
+        "genre": "RPG",
+        "releaseDate": "10/6/2020",
+        "price": 59.99,
+        "description": "Embark on an epic journey in the world of Dungeons & Dragons, filled with magic, monsters, and intrigue.",
+        "imageUrl": "https://example.com/baldursgate3.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Starfield",
+        "genre": "Space RPG",
+        "releaseDate": "TBD",
+        "price": 59.99,
+        "description": "Venture into the uncharted depths of space in Bethesda's upcoming sci-fi epic, Starfield.",
+        "imageUrl": "https://example.com/starfield.jpg"
+      },
+      {
+        "id": 10,
+        "title": "The Witcher 3: Wild Hunt",
+        "genre": "Action RPG",
+        "releaseDate": "05/19/2015",
+        "price": 29.99,
+        "description": "Follow Geralt of Rivia on his quest to find Ciri in this critically acclaimed open-world RPG.",
+        "imageUrl": "https://example.com/witcher3.jpg"
+      },
+      {
+        "id": 11,
+        "title": "Horizon Forbidden West",
+        "genre": "Action RPG",
+        "releaseDate": "02/18/2022",
+        "price": 69.99,
+        "description": "Return to Aloy's world in this sequel to Horizon Zero Dawn, where new mysteries and dangers await.",
+        "imageUrl": "https://example.com/horizonforbiddenwest.jpg"
+      },
+      {
+        "id": 12,
+        "title": "God of War: Ragnarok",
+        "genre": "Action-Adventure",
+        "releaseDate": "TBD",
+        "price": 59.99,
+        "description": "Join Kratos and Atreus on a new adventure in Norse mythology as they face powerful foes and uncover hidden truths.",
+        "imageUrl": "https://example.com/godofwarragnarok.jpg"
+      },
+      {
+        "id": 13,
+        "title": "Final Fantasy XVI",
+        "genre": "RPG",
+        "releaseDate": "TBD",
+        "price": 59.99,
+        "description": "Immerse yourself in the next installment of the beloved Final Fantasy series, featuring an epic tale of magic and conflict."
+  ,
+        "imageUrl": "https://example.com/finalfantasy16.jpg"
       }
-
     ]
-}
+  }
   
