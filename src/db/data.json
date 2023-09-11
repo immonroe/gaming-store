@@ -6,6 +6,7 @@
             "genre": "Platformer",
             "releaseDate": "09/18/2020",
             "price": 49.99,
+            "description": "This is a test description",
             "imageUrl": "https://example.com/mario3d.jpg"
         },
         {
@@ -14,6 +15,7 @@
             "genre": "Action RPG",
             "releaseDate": "12/10/2020",
             "price": 59.99,
+            "description": "This is a test description",
             "imageUrl": "https://example.com/cyberpunk2077.jpg"
         },
         {
@@ -22,6 +24,7 @@
             "genre": "Action-Adventure",
             "releaseDate": "03/03/2017",
             "price": 59.99,
+            "description": "This is a test description",
             "imageUrl": "https://example.com/breathofthewild.jpg"
         },
         {
@@ -30,6 +33,7 @@
             "genre": "Fighting",
             "releaseDate": "01/01/2022",
             "price": 59.99,
+            "description": "This is a test description",
             "imageUrl": "https://example.com/streetfighter6.jpg"
         },
         {
@@ -38,6 +42,7 @@
             "genre": "Action RPG",
             "releaseDate": "02/25/2022",
             "price": 59.99,
+            "description": "This is a test description",
             "imageUrl": "https://example.com/eldenring.jpg"
         },
         {
@@ -46,6 +51,7 @@
             "genre": "Sports",
             "releaseDate": "11/15/2023",
             "price": 69.99,
+            "description": "This is a test description",
             "imageUrl": "https://example.com/nba2k24.jpg"
       }
 
