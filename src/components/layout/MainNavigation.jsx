@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { FaShoppingCart } from 'react-icons/fa';
 import { AiFillGithub } from 'react-icons/ai';
 import { IoGameControllerOutline } from 'react-icons/io5';
