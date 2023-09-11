@@ -1,0 +1,54 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "title": "Super Mario 3D All-Stars",
+            "genre": "Platformer",
+            "releaseDate": "09/18/2020",
+            "price": 49.99,
+            "imageUrl": "https://example.com/mario3d.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Cyberpunk 2077",
+            "genre": "Action RPG",
+            "releaseDate": "12/10/2020",
+            "price": 59.99,
+            "imageUrl": "https://example.com/cyberpunk2077.jpg"
+        },
+        {
+            "id": 3,
+            "title": "The Legend of Zelda: Breath of the Wild",
+            "genre": "Action-Adventure",
+            "releaseDate": "03/03/2017",
+            "price": 59.99,
+            "imageUrl": "https://example.com/breathofthewild.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Street Fighter 6",
+            "genre": "Fighting",
+            "releaseDate": "01/01/2022",
+            "price": 59.99,
+            "imageUrl": "https://example.com/streetfighter6.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Elden Ring",
+            "genre": "Action RPG",
+            "releaseDate": "02/25/2022",
+            "price": 59.99,
+            "imageUrl": "https://example.com/eldenring.jpg"
+        },
+        {
+            "id": 6,
+            "title": "NBA 2K24",
+            "genre": "Sports",
+            "releaseDate": "11/15/2023",
+            "price": 69.99,
+            "imageUrl": "https://example.com/nba2k24.jpg"
+      }
+
+    ]
+}
+  
