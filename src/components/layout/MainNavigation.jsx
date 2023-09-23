@@ -23,7 +23,9 @@ const MainNavigation = () => {
                 <a href="https://github.com/immonroe" className={styles.githubLink}>
                     <AiFillGithub size={'1.5rem'} />
                 </a>
-                <FaShoppingCart size={'1.5rem'} className={styles.cartIcon} />
+                <Link to="Cart">
+                    <FaShoppingCart size={'1.5rem'} className={styles.cartIcon} />
+                </Link>
             </div>
         </nav>
     );

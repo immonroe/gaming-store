@@ -1,5 +1,3 @@
-
-
 function Product() {
   return (
     <div>
