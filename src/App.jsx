@@ -1,29 +1,31 @@
 // import React from 'react';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import { Container, Navbar } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
+
+// layouts
+import Navbar from './components/layout/Navbar';
 
 // pages
-import MainNavigation from './components/layout/Navbar';
 import Home from './pages/Home';
-import Product from './pages/Product';
-import ProductItem from './pages/ProductItem';
 import Cart from './pages/Cart';
+import Store from './pages/Store';
+import StoreItem from './pages/StoreItem';
 
 function App() {
-  return (
-    <>
-      <MainNavigation />
-      <Container className='mb-4'>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="product" element={<Product />} />
-          <Route path="product/:id" element={<ProductItem />} />
-          <Route path="cart" element={<Cart />} />
-        </Routes>
-      </Container>
-    </>
-  )
+    return (
+        <>
+            <Navbar />
+            <Container className='mb-4'>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/store" element={<Store />} />
+                    <Route path="store/:id" element={<StoreItem />} />
+                    <Route path="cart" element={<Cart />} />
+                </Routes>
+            </Container>
+        </>
+    )
 }
 
 export default App;

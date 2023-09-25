@@ -40,7 +40,7 @@ const SearchBar = () => {
       <ul className="search-results">
         {searchResults.map((game) => (
           <li key={game.id}>
-            <Link to={`/product/${game.id}`}>{game.title}</Link>
+            <Link to={`/store/${game.id}`}>{game.title}</Link>
           </li>
         ))}
       </ul>
