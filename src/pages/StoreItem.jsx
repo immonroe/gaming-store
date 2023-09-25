@@ -2,7 +2,7 @@
 import { useParams } from "react-router-dom";
 import data from '../db/data.json'
 
-function ProductItem() {
+function StoreItem() {
   const { id } = useParams();
 
   // Find the game by ID in your data
@@ -13,7 +13,7 @@ function ProductItem() {
   }
 
   return (
-    <div className="product-item">
+    <div className="store-item">
       <h2>{game.title}</h2>
       <p>Genre: {game.genre}</p>
       <p>Release Date: {game.releaseDate}</p>
@@ -24,4 +24,4 @@ function ProductItem() {
   );
 }
 
-export default ProductItem;
+export default StoreItem;
