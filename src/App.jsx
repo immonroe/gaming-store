@@ -10,7 +10,7 @@ import Navbar from './components/layout/Navbar';
 import Home from './pages/Home';
 import Cart from './pages/Cart';
 import Store from './pages/Store';
-import StoreItem from './pages/StoreItem';
+import StoreItem from './components/store/StoreItem';
 
 function App() {
     return (

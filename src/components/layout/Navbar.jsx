@@ -12,7 +12,6 @@ const Navbar = () => {
         <NavbarBs className='bg-white shadow-sm mb-3'>
             <Container>
                 <Nav className='me-auto'>
-                    <SearchBar ClassName={styles.SearchBar}/>
                     <Nav.Link to="/" as={NavLink}>
                         {/* <IoGameControllerOutline /> */}
                         Home
@@ -25,7 +24,7 @@ const Navbar = () => {
                     </Nav.Link>
                 </Nav>
 
-                
+                <SearchBar ClassName={styles.SearchBar}/>
                 <a href="https://github.com/immonroe" className={styles.githubLink}>
                             <AiFillGithub size={'1.5rem'} />
                         </a>
