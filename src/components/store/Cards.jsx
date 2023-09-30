@@ -16,7 +16,7 @@ import data from '../../db/data.json';
 import classes from '../store/Cards.module.css';
 
 function Cards() {
-  const maxCardHeight = '350px'; // Adjust this value to your desired fixed height
+  const maxCardHeight = '380px'; // Adjust this value to your desired fixed height
 
   return (
     <Container>
@@ -31,12 +31,12 @@ function Cards() {
                 flexDirection: 'column',
               }}
             >
-              <CardMedia sx={{ height: 160 }} image={game.imageUrl} title={game.title} />
+              <CardMedia sx={{ height: 180 }} image={game.imageUrl} title={game.title} />
               <CardContent
                 style={{
                   flex: '1',
                   overflow: 'hidden',
-                  maxHeight: `calc(${maxCardHeight} - 160px)`, // Adjust for image height
+                  maxHeight: `calc(${maxCardHeight} - 180px)`, // Adjust for image height
                 }}
               >
                 <Typography gutterBottom variant="h5" component="div">

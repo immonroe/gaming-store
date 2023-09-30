@@ -52,6 +52,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link, NavLink } from 'react-router-dom';
+// import styles from '../layout/Navbar.module.css'
+// import SearchBar from '../SearchBar';
 
 function MainNav() {
   return (
