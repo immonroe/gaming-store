@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 
 // layouts
-import Navbar from './components/layout/Navbar';
+import MainNav from './components/layout/Navbar';
 
 // pages
 import Home from './pages/Home';
@@ -15,7 +15,7 @@ import StoreItem from './components/store/StoreItem';
 function App() {
     return (
         <>
-            <Navbar />
+            <MainNav />
             <Container className='mb-4'>
                 <Routes>
                     <Route path="/" element={<Home />} />
