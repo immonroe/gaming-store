@@ -24,7 +24,7 @@ function Cards() {
       <Row xs={1} md={2} lg={3} gap={1}>
         {data.games.map((game) => (
           <Col key={game.id} className="mb-4">
-            <Link to={`/store/${game.id}`} className="text-decoration-none"> {/* Wrap Card with Link */}
+            <Link to={`/${game.id}`} className="text-decoration-none"> {/* Wrap Card with Link */}
               <Card
                 sx={{
                   maxWidth: 345,
