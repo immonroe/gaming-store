@@ -9,7 +9,7 @@ import classes from '../pages/Store.module.css'
 function Store() {
   return (
     <div>
-      <h1>Store Page</h1>
+      <h1 className="d-flex justify-content-center mb-4">Store Page</h1>
       {/* render dynamic list into JSX elements */}
       {/* {data.games.map((games) => {
         return <li key={games.id}><Link to={`/store/${games.id}`}>{games.title}</Link></li>

@@ -59,7 +59,7 @@ import { IoGameControllerOutline } from 'react-icons/io5';
 
 function MainNav() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary mb-2">
       <Container>
         <Navbar.Brand href="#home">
             <Nav.Link to="/" as={NavLink}>
