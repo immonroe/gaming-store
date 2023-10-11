@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { ShopContext } from '../../context/shop-context';
 import { Link } from 'react-router-dom'; // Import Link from React Router
 
 // Database
@@ -18,6 +19,9 @@ import classes from '../store/Cards.module.css';
 
 function Cards() {
   const maxCardHeight = '380px'; // Adjust this value to your desired fixed height
+
+  const {addToCart, cartItems } = useContext(ShopContext)
+  const cartItemAmount = cartItems[data.games.id]
 
   return (
     <Container>
@@ -49,7 +53,15 @@ function Cards() {
                   </Typography>
                 </CardContent>
                 <CardActions className={classes.cartContainer}>
-                  <Button size="small">Add to Cart</Button>
+                <Button
+                  size="small"
+                  onClick={(e) => {
+                    e.preventDefault(); // Prevent the link from navigating
+                    addToCart(game.id);
+                  }}
+                >
+                  Add to Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
+                </Button>
                   <Typography variant="body2" color="text.primary">
                     Price: ${game.price.toFixed(2)}
                   </Typography>

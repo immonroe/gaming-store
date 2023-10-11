@@ -11,10 +11,11 @@ import Cart from './pages/Cart';
 import Store from './pages/Store';
 import StoreItem from './components/store/StoreItem';
 import Wishlist from './pages/Wishlist';
+import { ShopContextProvider } from './context/shop-context';
 
 function App() {
     return (
-        <>
+        <ShopContextProvider>
             <MainNav />
             <Container className='mb-4'>
                 <Routes>
@@ -24,7 +25,7 @@ function App() {
                     <Route path="wishlist" element={<Wishlist />} />
                 </Routes>
             </Container>
-        </>
+        </ShopContextProvider>
     )
 }
 
