@@ -19,7 +19,7 @@ export const ShopContextProvider = (props) => {
     };
   
     const removeFromCart = (itemId) => {
-      setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
+        setCartItems((prev) => ({ ...prev, [itemId]: 0 })); // Set quantity to 0 to remove all items
     };
   
     const updateQuantity = (itemId, newQuantity) => {

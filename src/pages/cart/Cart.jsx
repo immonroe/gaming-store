@@ -6,6 +6,13 @@ import data from '../../db/data.json'
 
 function Cart() {
   const { cartItems, removeFromCart, updateQuantity } = useContext(ShopContext);
+  
+
+  // Calculate the total price of all items in the cart
+  const totalPrice = Object.keys(cartItems).reduce((total, itemId) => {
+    const game = data.games.find((g) => g.id === parseInt(itemId));
+    return total + game.price * cartItems[itemId];
+  }, 0);
 
   return (
     <div className="cart">
@@ -17,6 +24,8 @@ function Cart() {
           const quantity = cartItems[itemId];
           if (quantity > 0) {
             const game = data.games.find((g) => g.id === parseInt(itemId));
+            const subtotal = game.price * quantity;
+
             return (
               <div key={game.id} className="cart-item">
                 <Link to={`/${game.id}`} className="text-decoration-none">
@@ -27,12 +36,16 @@ function Cart() {
                   quantity={quantity}
                   onQuantityChange={(newQuantity) => updateQuantity(game.id, newQuantity)}
                 />
+                <p>Subtotal: ${subtotal.toFixed(2)}</p>
                 <button onClick={() => removeFromCart(game.id)}>Remove</button>
               </div>
             );
           }
           return null;
         })}
+      </div>
+      <div className="total-price">
+        <h3>Total Price: ${totalPrice.toFixed(2)}</h3>
       </div>
     </div>
   );
