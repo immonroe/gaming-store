@@ -25,28 +25,34 @@ The Gaming E-Commerce Store is a modern online platform for gamers to explore an
 
 1. Clone the repository to your local machine:
 
-
+```javascript
 git clone <repository-url>
-
+```
 
 2. Change to the project directory:
 
+```javascript
 cd gaming-e-commerce-store
-
+```
 
 3. Install project dependencies:
 
+```javascript
 npm install
+```
 
 4. Start the development server:
 
+```javascript
 npm run dev
+```
 
 Open your web browser and visit http://localhost:3000 to access the app.
 
 ## Configuration
 Before running the application, make sure to configure Firebase with your credentials. Create a Firebase project on the Firebase Console and obtain your configuration details. Update the Firebase configuration in src/firebase/firebase.jsx with your own values:
 
+```javascript
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
@@ -59,6 +65,7 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const firestore = getFirestore(app);
+```
 
 ## Usage
 - Browse the game selection on the home page.
