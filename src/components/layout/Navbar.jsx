@@ -52,22 +52,23 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link, NavLink } from 'react-router-dom';
+import { FaShoppingCart } from 'react-icons/fa';
+import { IoGameControllerOutline } from 'react-icons/io5';
 // import styles from '../layout/Navbar.module.css'
 // import SearchBar from '../SearchBar';
 
 function MainNav() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary mb-2">
       <Container>
         <Navbar.Brand href="#home">
             <Nav.Link to="/" as={NavLink}>
-                Game Store
+                Game Store <IoGameControllerOutline />
             </Nav.Link>
             </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link to="/store" as={NavLink}>Store</Nav.Link>
             <Nav.Link href="/wishlist">Wishlist</Nav.Link>
             <NavDropdown title="About" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -85,7 +86,7 @@ function MainNav() {
             <Nav.Link href="#deets">More deets</Nav.Link>
             {/* Add rxjs search bar */}
             <Nav.Link to="/cart" as={NavLink}>
-              Cart
+            <FaShoppingCart />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
