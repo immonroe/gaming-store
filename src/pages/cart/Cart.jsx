@@ -1,15 +1,11 @@
 import React, { useContext } from 'react';
-import data from '../../db/data.json'
-import { Link } from 'react-router-dom';
 import { ShopContext } from '../../context/shop-context';
-// import { cartItems } from '../../components/cart-item'
-
-
-
+import { Link } from 'react-router-dom';
+import QuantityCounter from '../../components/QuantityCounter';
+import data from '../../db/data.json'
 
 function Cart() {
-
-  const { cartItems } = useContext(ShopContext);
+  const { cartItems, removeFromCart, updateQuantity } = useContext(ShopContext);
 
   return (
     <div className="cart">
@@ -26,8 +22,11 @@ function Cart() {
                 <Link to={`/${game.id}`} className="text-decoration-none">
                   <h2>{game.title}</h2>
                 </Link>
-                <p>Quantity: {quantity}</p>
-                {/* Add a button to remove the item from the cart */}
+                <p>Price: ${game.price.toFixed(2)}</p>
+                <QuantityCounter
+                  quantity={quantity}
+                  onQuantityChange={(newQuantity) => updateQuantity(game.id, newQuantity)}
+                />
                 <button onClick={() => removeFromCart(game.id)}>Remove</button>
               </div>
             );
@@ -37,6 +36,6 @@ function Cart() {
       </div>
     </div>
   );
-  }
-  
-  export default Cart;
+}
+
+export default Cart;
