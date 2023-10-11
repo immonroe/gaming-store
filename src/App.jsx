@@ -7,10 +7,10 @@ import { Container } from 'react-bootstrap';
 import MainNav from './components/layout/Navbar';
 
 // pages
-import Cart from './pages/Cart';
-import Store from './pages/Store';
+import Cart from './pages/cart/Cart';
+import Store from './pages/store/Store';
 import StoreItem from './components/store/StoreItem';
-import Wishlist from './pages/Wishlist';
+import Wishlist from './pages/wishlist/Wishlist';
 import { ShopContextProvider } from './context/shop-context';
 
 function App() {
