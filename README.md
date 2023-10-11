@@ -26,13 +26,13 @@ The Gaming E-Commerce Store is a modern online platform for gamers to explore an
 1. Clone the repository to your local machine:
 
 ```javascript
-git clone <repository-url>
+git clone git@github.com:immonroe/gaming-store.git
 ```
 
 2. Change to the project directory:
 
 ```javascript
-cd gaming-e-commerce-store
+cd gaming-store
 ```
 
 3. Install project dependencies:
