@@ -30,7 +30,7 @@ function Cart() {
             const subtotal = game.price * quantity;
 
             return (
-              <Row key={game.id} className="cart-item mb-3">
+              <Row key={game.id} className="cart-item mb-3 pt-4">
                 <Col md={3}>
                   <Link to={`/${game.id}`}>
                     <Image src={game.imageUrl} alt={game.title} thumbnail />

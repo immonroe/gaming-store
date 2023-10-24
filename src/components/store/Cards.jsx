@@ -29,7 +29,7 @@ function Cards() {
         {data.games.map((game) => (
           <Col key={game.id} className="mb-4">
             <Link to={`/${game.id}`} className="text-decoration-none"> {/* Wrap Card with Link */}
-              <Card
+              <Card className={classes.card}
                 sx={{
                   maxWidth: 345,
                   height: maxCardHeight,
