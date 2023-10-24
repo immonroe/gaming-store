@@ -2,9 +2,10 @@ import { useState, useEffect } from 'react';
 import { fromEvent } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
 import data from '../db/data.json';
-import { ImSearch } from "react-icons/im";
 import '../components/SearchBar.module.css';
 import { Link } from 'react-router-dom';
+import { Form, Button } from 'react-bootstrap';
+
 
 const SearchBar = () => {
   const [searchResults, setSearchResults] = useState([]);
@@ -31,22 +32,22 @@ const SearchBar = () => {
 
   return (
     <div className="searchContainer">
-      <input
-        id="searchInput"
-        type="text"
-        placeholder="Search for a game..."
-        // Remove the onChange attribute
-      />
-      <ul className="search-results">
-        {searchResults.map((game) => (
-          <li key={game.id}>
-            <Link to={`/product/${game.id}`}>{game.title}</Link>
-          </li>
-        ))}
-      </ul>
-      <button>
-        <ImSearch />
-      </button>
+
+      <Form className="d-flex">
+        <Form.Control 
+          type="text" 
+          placeholder="Normal text"
+          className="me-2"
+          aria-label="Search" />
+          <ul className="search-results">
+            {searchResults.map((game) => (
+              <li key={game.id}>
+                <Link to={`/store/${game.id}`}>{game.title}</Link>
+              </li>
+            ))}
+          </ul>
+          <Button variant="outline-dark">Search</Button>
+      </Form>
     </div>
   );
 };

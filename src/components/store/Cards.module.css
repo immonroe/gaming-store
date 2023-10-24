@@ -1,0 +1,10 @@
+.cartContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+  }

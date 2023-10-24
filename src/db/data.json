@@ -1,122 +1,122 @@
 {
     "games": [
-      {
-        "id": 1,
-        "title": "Super Mario 3D All-Stars",
-        "genre": "Platformer",
-        "releaseDate": "09/18/2020",
-        "price": 49.99,
-        "description": "Join Mario on a grand adventure through various 3D worlds in this collection of classic titles.",
-        "imageUrl": "https://example.com/mario3d.jpg"
-      },
-      {
-        "id": 2,
-        "title": "Cyberpunk 2077",
-        "genre": "Action RPG",
-        "releaseDate": "12/10/2020",
-        "price": 59.99,
-        "description": "Explore the futuristic city of Night City as V, a mercenary searching for an immortality chip.",
-        "imageUrl": "https://example.com/cyberpunk2077.jpg"
-      },
-      {
-        "id": 3,
-        "title": "The Legend of Zelda: Tears of the Kingdom",
-        "genre": "Action-Adventure",
-        "releaseDate": "TBD",
-        "price": 59.99,
-        "description": "Embark on a new quest as Link in the latest installment of the iconic Legend of Zelda series.",
-        "imageUrl": "https://example.com/tearsofthekingdom.jpg"
-      },
-      {
-        "id": 4,
-        "title": "Street Fighter 6",
-        "genre": "Fighting",
-        "releaseDate": "01/01/2022",
-        "price": 59.99,
-        "description": "Fight against formidable opponents in intense one-on-one battles in the latest installment of the iconic fighting series.",
-        "imageUrl": "https://example.com/streetfighter6.jpg"
-      },
-      {
-        "id": 5,
-        "title": "Elden Ring",
-        "genre": "Action RPG",
-        "releaseDate": "02/25/2022",
-        "price": 59.99,
-        "description": "Uncover the mysteries of the shattered world of the Elden Ring in this open-world action RPG.",
-        "imageUrl": "https://example.com/eldenring.jpg"
-      },
-      {
-        "id": 6,
-        "title": "NBA 2K24",
-        "genre": "Sports",
-        "releaseDate": "11/15/2023",
-        "price": 69.99,
-        "description": "Experience the excitement of professional basketball in the latest installment of the NBA 2K series.",
-        "imageUrl": "https://example.com/nba2k24.jpg"
-      },
-      {
-        "id": 7,
-        "title": "The Elder Scrolls V: Skyrim",
-        "genre": "Action RPG",
-        "releaseDate": "11/11/2011",
-        "price": 39.99,
-        "description": "Step into the vast and open world of Skyrim, where dragons roam and adventures await around every corner.",
-        "imageUrl": "https://example.com/skyrim.jpg"
-      },
-      {
-        "id": 8,
-        "title": "Baldur's Gate 3",
-        "genre": "RPG",
-        "releaseDate": "10/6/2020",
-        "price": 59.99,
-        "description": "Embark on an epic journey in the world of Dungeons & Dragons, filled with magic, monsters, and intrigue.",
-        "imageUrl": "https://example.com/baldursgate3.jpg"
-      },
-      {
-        "id": 9,
-        "title": "Starfield",
-        "genre": "Space RPG",
-        "releaseDate": "TBD",
-        "price": 59.99,
-        "description": "Venture into the uncharted depths of space in Bethesda's upcoming sci-fi epic, Starfield.",
-        "imageUrl": "https://example.com/starfield.jpg"
-      },
-      {
-        "id": 10,
-        "title": "The Witcher 3: Wild Hunt",
-        "genre": "Action RPG",
-        "releaseDate": "05/19/2015",
-        "price": 29.99,
-        "description": "Follow Geralt of Rivia on his quest to find Ciri in this critically acclaimed open-world RPG.",
-        "imageUrl": "https://example.com/witcher3.jpg"
-      },
-      {
-        "id": 11,
-        "title": "Horizon Forbidden West",
-        "genre": "Action RPG",
-        "releaseDate": "02/18/2022",
-        "price": 69.99,
-        "description": "Return to Aloy's world in this sequel to Horizon Zero Dawn, where new mysteries and dangers await.",
-        "imageUrl": "https://example.com/horizonforbiddenwest.jpg"
-      },
-      {
-        "id": 12,
-        "title": "God of War: Ragnarok",
-        "genre": "Action-Adventure",
-        "releaseDate": "TBD",
-        "price": 59.99,
-        "description": "Join Kratos and Atreus on a new adventure in Norse mythology as they face powerful foes and uncover hidden truths.",
-        "imageUrl": "https://example.com/godofwarragnarok.jpg"
-      },
-      {
-        "id": 13,
-        "title": "Final Fantasy XVI",
-        "genre": "RPG",
-        "releaseDate": "TBD",
-        "price": 59.99,
-        "description": "Immerse yourself in the next installment of the beloved Final Fantasy series, featuring an epic tale of magic and conflict.",
-        "imageUrl": "https://example.com/finalfantasy16.jpg"
-      }
+        {
+            "id": 1,
+            "title": "Super Mario 3D All-Stars",
+            "genre": "Platformer",
+            "releaseDate": "09/18/2020",
+            "price": 49.99,
+            "description": "Join Mario on a grand adventure through various 3D worlds in this collection of classic titles.",
+            "imageUrl": "https://images4.alphacoders.com/111/1112984.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Cyberpunk 2077",
+            "genre": "Action RPG",
+            "releaseDate": "12/10/2020",
+            "price": 59.99,
+            "description": "Explore the futuristic city of Night City as V, a mercenary searching for an immortality chip.",
+            "imageUrl": "https://3.bp.blogspot.com/-E7OyhUds7tk/XP2Wvdy3FjI/AAAAAAAADzc/3fqJor1laLESjsn-f2PYRc7ud8wzRKU7ACKgBGAs/w0/cyberpunk-2077-v-uhdpaper.com-4K-82.jpg"
+        },
+        {
+            "id": 3,
+            "title": "The Legend of Zelda: Tears of the Kingdom",
+            "genre": "Action-Adventure",
+            "releaseDate": "TBD",
+            "price": 59.99,
+            "description": "Embark on a new quest as Link in the latest installment of the iconic Legend of Zelda series.",
+            "imageUrl": "https://images.alphacoders.com/127/1272163.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Street Fighter 6",
+            "genre": "Fighting",
+            "releaseDate": "01/01/2022",
+            "price": 59.99,
+            "description": "Fight against formidable opponents in intense one-on-one battles in the latest installment of the iconic fighting series.",
+            "imageUrl": "https://images3.alphacoders.com/131/1313511.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Elden Ring",
+            "genre": "Action RPG",
+            "releaseDate": "02/25/2022",
+            "price": 59.99,
+            "description": "Uncover the mysteries of the shattered world of the Elden Ring in this open-world action RPG.",
+            "imageUrl": "https://cdn.wccftech.com/wp-content/uploads/2021/06/ER_KEY-ART-scaled-e1623411764381.jpg"
+        },
+        {
+            "id": 6,
+            "title": "NBA 2K24",
+            "genre": "Sports",
+            "releaseDate": "11/15/2023",
+            "price": 69.99,
+            "description": "Experience the excitement of professional basketball in the latest installment of the NBA 2K series.",
+            "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202308/0108/3fe691cc13a4edca4b9ac019ab30fec114c834a153b7453d.jpg"
+        },
+        {
+            "id": 7,
+            "title": "The Elder Scrolls V: Skyrim",
+            "genre": "Action RPG",
+            "releaseDate": "11/11/2011",
+            "price": 39.99,
+            "description": "Step into the vast and open world of Skyrim, where dragons roam and adventures await around every corner.",
+            "imageUrl": "https://images.hdqwalls.com/wallpapers/skyrim-wallpaper-4k-bu.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Baldur's Gate 3",
+            "genre": "RPG",
+            "releaseDate": "10/6/2020",
+            "price": 59.99,
+            "description": "Embark on an epic journey in the world of Dungeons & Dragons, filled with magic, monsters, and intrigue.",
+            "imageUrl": "https://preview.redd.it/baldurs-gate-3-wallpaper-3440x1440-5120x1440-v0-a7eos4ir1jcb1.jpeg?width=3840&format=pjpg&auto=webp&s=b86e744bcb682b38023a9448de420bdf4e870965"
+        },
+        {
+            "id": 9,
+            "title": "Starfield",
+            "genre": "Space RPG",
+            "releaseDate": "TBD",
+            "price": 59.99,
+            "description": "Venture into the uncharted depths of space in Bethesda's upcoming sci-fi epic, Starfield.",
+            "imageUrl": "https://cdn.wccftech.com/wp-content/uploads/2022/02/Starfield-game-HD-scaled.jpg"
+        },
+        {
+            "id": 10,
+            "title": "The Witcher 3: Wild Hunt",
+            "genre": "Action RPG",
+            "releaseDate": "05/19/2015",
+            "price": 29.99,
+            "description": "Follow Geralt of Rivia on his quest to find Ciri in this critically acclaimed open-world RPG.",
+            "imageUrl": "https://i.redd.it/xdcm07ar29a71.jpg"
+          },
+        {
+            "id": 11,
+            "title": "Horizon Forbidden West",
+            "genre": "Action RPG",
+            "releaseDate": "02/18/2022",
+            "price": 69.99,
+            "description": "Return to Aloy's world in this sequel to Horizon Zero Dawn, where new mysteries and dangers await.",
+            "imageUrl": "https://i.redd.it/ilcen60ex3l71.jpg"
+        },
+        {
+            "id": 12,
+            "title": "God of War: Ragnarok",
+            "genre": "Action-Adventure",
+            "releaseDate": "TBD",
+            "price": 59.99,
+            "description": "Join Kratos and Atreus on a new adventure in Norse mythology as they face powerful foes and uncover hidden truths.",
+            "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/aqZdSwWyy9JcQ66BxHDKrky6.jpg"
+        },
+        {
+            "id": 13,
+            "title": "Final Fantasy XVI",
+            "genre": "RPG",
+            "releaseDate": "TBD",
+            "price": 59.99,
+            "description": "Immerse yourself in the next installment of the beloved Final Fantasy series, featuring an epic tale of magic and conflict.",
+            "imageUrl": "https://images.hdqwalls.com/wallpapers/final-fantasy-xvi-4k-2h.jpg"
+        }
     ]
-  }
+}
   
