@@ -2,6 +2,8 @@
 
 A web-based gaming e-commerce store built with React and Firebase.
 
+<a href="https://immonroe.github.io/gaming-store/"> LIVE DEMO</a>
+
 ## Overview
 
 The Gaming E-Commerce Store is a modern online platform for gamers to explore and purchase their favorite games. This project combines a user-friendly front-end with a powerful Firebase backend, enabling users to browse a selection of games and add them to their cart!
