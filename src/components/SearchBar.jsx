@@ -4,8 +4,7 @@ import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
 import data from '../db/data.json';
 import '../components/SearchBar.module.css';
 import { Link } from 'react-router-dom';
-import { Form } from 'react-bootstrap';
-// import { ImSearch } from "react-icons/im";
+import { Form, Button } from 'react-bootstrap';
 
 
 const SearchBar = () => {
@@ -33,17 +32,22 @@ const SearchBar = () => {
 
   return (
     <div className="searchContainer">
-      <Form.Control type="text" placeholder="Normal text" />
-      <ul className="search-results">
-        {searchResults.map((game) => (
-          <li key={game.id}>
-            <Link to={`/store/${game.id}`}>{game.title}</Link>
-          </li>
-        ))}
-      </ul>
-      {/* <button>
-        <ImSearch />
-      </button> */}
+
+      <Form className="d-flex">
+        <Form.Control 
+          type="text" 
+          placeholder="Normal text"
+          className="me-2"
+          aria-label="Search" />
+          <ul className="search-results">
+            {searchResults.map((game) => (
+              <li key={game.id}>
+                <Link to={`/store/${game.id}`}>{game.title}</Link>
+              </li>
+            ))}
+          </ul>
+          <Button variant="outline-dark">Search</Button>
+      </Form>
     </div>
   );
 };
