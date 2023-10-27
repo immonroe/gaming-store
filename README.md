@@ -2,7 +2,7 @@
 
 A web-based gaming e-commerce store built with React and Firebase.
 
-<a href="https://immonroe.github.io/gaming-store/"> LIVE DEMO</a>
+<a href="https://gaming-store.pages.dev/"> LIVE DEMO</a>
 
 ## Overview
 
