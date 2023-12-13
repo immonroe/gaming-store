@@ -11,6 +11,10 @@ import Col from 'react-bootstrap/Col';
 import { ShopContext } from '../../context/shop-context';
 import { Link } from 'react-router-dom'; // Import Link from React Router
 
+// Toastify
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 // Database
 import data from '../../db/data.json';
 
@@ -22,6 +26,8 @@ function Cards() {
 
   const {addToCart, cartItems } = useContext(ShopContext)
   const cartItemAmount = cartItems[data.games.id]
+
+  const notify = () => toast("Game added to cart!");
 
   return (
     <Container>

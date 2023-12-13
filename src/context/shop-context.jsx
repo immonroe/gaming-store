@@ -2,6 +2,8 @@ import React, { createContext, useState, useContext, useEffect } from "react";
 import { getFirestore, collection, doc, setDoc } from 'firebase/firestore';
 import data from '../db/data.json';
 import { firestore } from "../firebase/firebase";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const ShopContext = createContext(null);
 
@@ -13,6 +15,8 @@ const getDefaultCart = () => {
     return cart;
 };
 
+const notify = () => toast("Game added to cart!");
+
 export const ShopContextProvider = (props) => {
     // Load cart data from localStorage (if available) or use the default cart
     const initialCart = JSON.parse(localStorage.getItem('cart')) || getDefaultCart();
@@ -23,6 +27,9 @@ export const ShopContextProvider = (props) => {
         setCartItems(updatedCart);
         // Save the updated cart to localStorage
         localStorage.setItem('cart', JSON.stringify(updatedCart));
+
+        notify();
+
     };
 
     const removeFromCart = (itemId) => {
@@ -65,6 +72,18 @@ export const ShopContextProvider = (props) => {
     return (
         <ShopContext.Provider value={contextValue}>
             {props.children}
+            <ToastContainer
+                position="bottom-right"
+                autoClose={2500}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+            />
         </ShopContext.Provider>
     );
 };
