@@ -9,16 +9,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { ShopContext } from '../../context/shop-context';
-import { Link } from 'react-router-dom'; // Import Link from React Router
-
-// Toastify
+import { Link } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-// Database
 import data from '../../db/data.json';
-
-// Styling
 import classes from '../store/Cards.module.css';
 
 function Cards() {
