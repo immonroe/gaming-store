@@ -11,5 +11,5 @@
 
 .card:not(:hover){
     transform: scale(1);
-    transition: transform 0.3s;
+    transition: transform 0.5s;
 }
