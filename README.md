@@ -2,7 +2,9 @@
 
 A web-based gaming e-commerce store built with React and Firebase.
 
-<a href="https://gaming-store-teal.vercel.app/"> LIVE DEMO</a>
+![Test](https://immanuelmonroe.netlify.app/images/gamestoress.png)
+
+<a href="https://gaming-store-teal.vercel.app/">LIVE DEMO</a>
 
 ## Overview
 
