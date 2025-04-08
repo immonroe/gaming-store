@@ -1,4 +1,4 @@
-# Gaming E-Commerce Store
+# Grab N' Go Games
 
 A web-based gaming e-commerce store built with React and Firebase.
 
